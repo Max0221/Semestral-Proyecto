@@ -1,6 +1,7 @@
 .navbar{
     background-image: url('../img/img1.jpg');
     background-color: transparent !important;
+    height: 70px;
 }
 .navbar .nav-item a{
     color: #FFF !important;
@@ -15,4 +16,9 @@
         background-color: rgba(0, 0, 0, 0.3);
 
 }
+
+.carousel-item{
+    height: 700px;
+}
+
 
