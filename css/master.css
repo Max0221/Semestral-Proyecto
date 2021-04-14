@@ -85,3 +85,7 @@ body{
 .login-box a:hover{
     color: #ffff;
 }
+
+.login-box input[type="submit"]:hover{
+    background-color:#7b5859 ;
+}
