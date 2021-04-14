@@ -1,37 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"
-<title> LOGIN </title>
-<link href="bootstrap.min.css" rel = "stylesheet">
+    <meta charset="UTF-8">
+   
+    <title>login | Gc </title>
+    <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row ">
-            <div class="col">
+   <div class="login-box">
+       <img  class="avatar"  src="img/logo.png" width="48px" alt="logo de Gc">
+       <h1>Ingresar</h1>
+       <form>
+         <!--useraname-->  
+         <label for="username">Usuario</label>
+         <input type="text" placeholder="Enter username">
+          <!--password-->  
+          <label for="password">contraseña</label>
+          <input type="password" placeholder="Enter password">
 
-            </div>
-            <div class="col">
-                <div class="text-end">
-                    <img src="img/logo.png" width="48px" alt="">
-                </div>
-                <h2 class="fw-bold text-center py-5" >BIENVENIDO</h2>
-                <!--login-->
-                <form action="#">
-                    <div class="mb-4"></div>
-                    <label for="email"></label>
-                    <div class="mb-4"></div>
-                    <div class="mb-4"></div>
-                </form>
+          <input type="submit" value="Log in">
 
-            </div>
-        </div>
-    </div>
+          <a href="">¿perdiste tu contraseña?</a><br>
+          <a href="">registrate</a>
 
+       </form>
+   </div>
 
-
-    <script src="bootstrap.bundle.min.js"></script>
+   
 </body>
-
 </html>
