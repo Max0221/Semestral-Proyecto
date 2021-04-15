@@ -18,3 +18,10 @@
 
 }
 /*------------------------*/
+.card-container{
+    margin: 1em;
+    padding: 1em;
+    color: blue;
+    float: right;
+}
+
