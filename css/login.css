@@ -65,7 +65,7 @@ body{
     font-size: 16px;
 }
 
-.login-box input[type="submit"]{
+.login-box button[type="button"]{
     border: none;
     outline: none;
     height: 40px;
@@ -87,6 +87,6 @@ body{
     color: #ffff;
 }
 
-.login-box input[type="submit"]:hover{
+.login-box button[type="button"]:hover{
     background-color:#7b5859 ;
 }

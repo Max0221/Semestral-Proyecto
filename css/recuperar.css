@@ -59,7 +59,7 @@
 
 }
 
-.recuperar-box input[type="submit"]{
+.recuperar-box button[type="button"]{
     border: none;
     outline: none;
     height: 40px;
@@ -81,7 +81,7 @@
     color: #ffff;
 }
 
-.recuperar-box input[type="submit"]:hover{
+.recuperar-box button[type="button"]:hover{
     background-color:#7b5859 ;
 }
 
