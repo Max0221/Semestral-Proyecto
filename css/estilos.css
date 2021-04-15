@@ -21,6 +21,7 @@
 /* carousel de imagenes*/
 
 .carousel-inner img {
+    filter: brightness(0.5);
     height: 400px;
 }
 
@@ -47,5 +48,8 @@
 .card-img-overlay{
     transition-duration: .6s;
 }
+
+
+
 
 
