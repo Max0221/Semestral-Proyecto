@@ -1,9 +1,8 @@
 # Semestral-Proyecto
-caso 1 "grupo cero"
+caso 1 "Grupo Zero"
 Integrantes: Max Abarca- Cristobal Ampuero- Matías Lohse
 <<<<<<< HEAD
 ##Lider: Max abarca
-tengo hambre
 =======
 Lider: Max abarca
 
