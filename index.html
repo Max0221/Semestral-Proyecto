@@ -13,6 +13,7 @@
     <title>inicio|Ground zero</title>
   </head>
   <body>
+    <!--Cabecera, navbar-->
       <div class="mynav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
@@ -30,11 +31,11 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Artistas
+                    Productos
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Más buscados</a></li>
-                    <li><a class="dropdown-item" href="#">Obras populares</a></li>
+                    <li><a class="dropdown-item" href="#">Por categoría</a></li>
+                    <li><a class="dropdown-item" href="#">Por artista</a></li>
                   </ul>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contacto</a>
@@ -51,7 +52,7 @@
 
 
 
-
+         <!--Carousel de imagenes-->
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -62,21 +63,21 @@
               <div class="carousel-item active">
                 <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
+                  <h5>Obra destacada número 1</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="img/carousel2.jpg" class="d-block w-100" alt="..." >
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
+                  <h5>Obra destacada número 2</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
+                  <h5>Obra destacada número 3</h5>
                   <p>Some representative placeholder content for the third slide.</p>
                 </div>
               </div>
@@ -91,15 +92,110 @@
             </button>
           </div>
 
+          <section class="container">
+            <div class="row">
 
-        </div>
+              <!--textos-->
+              <div class="col-12 text-center">
+                <h2 class="text-warning tex-uppercase h6">Experience</h2>
+                <h3 class="text-capitalize">The trilling outdoor</h3>
+                <p class="text-muted">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci cumque aut vero rem animi similique, sunt fugit facilis laudantium sed eius earum odit neque voluptatem nulla recusandae aperiam excepturi nam.
+                </p>
+              </div>
+              <!--tarjetas-->
+              <!--tarjeta #1-->
+              <article class="col-4 card-effect">
+                <div class="card">
+                  <img src="./img/imgcard1.jpg" alt="Raiting" class="card-img card-img-filter">
+                  <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+                    <h4>Rafting</h4>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, incidunt.
+                    </p>
+                    <a href="#" class="text-reset">Averigua más</a>
+                  </div>
+                </div>
+              </article>
+              <!-- tarjeta #2-->
+              <article class="col-4 card-effect">
+                <div class="card">
+                  <img src="./img/imgcard2.jpg" alt="Hiking" class="card-img card-img-filter">
+                  <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+                    <h4>Hiking</h4>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, incidunt.
+                    </p>
+                    <a href="#" class="text-reset">Averigua más</a>
+                  </div>
+                </div>
+              </article>
+              <!-- tarjeta #3-->
+              <article class="col-4 card-effect">
+                <div class="card">
+                  <img src="./img/imgcard3.jpg" alt="Camping" class="card-img card-img-filter">
+                  <div class="card-img-overlay text-white d-flex flex-column justify-content-center text-center">
+                    <h4>Camping</h4>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, incidunt.
+                    </p>
+                    <a href="#" class="text-reset">Averigua más</a>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </section>
+
+          <!-- Pequeña descripcion de por que comprar-->
+
+          <section class="container">
+            <div class="row">
+              <!--titulo-->
+              <h2 class="col-12 text-center">
+                <span class="text-warning h6 text-uppercase">Un poco sobre</span><br/>
+                  <span class="text-capitalize">nuestra empresa</span>
+
+              </h2>
+              <!--1 descripcion-->
+              <p class="col-6">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, reiciendis fuga? Eos nihil tempora nisi, eveniet deserunt placeat laborum, architecto adipisci, consequatur ut id dicta quos! Perspiciatis facilis corporis iure.
+              </p>
+              <!--2 descripcion-->
+              <p class="col-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas magnam numquam distinctio minima maiores maxime dolor aperiam illum. Cupiditate, iste! Possimus dolorem in qui magni, laudantium itaque id perferendis excepturi.
+              </p>
+              <!--Preguntas-->
+              <div class="col-3">
+                <h3 class="text-warning h6">¿Por qué comprar?</h3>
+                <p class="font-weight-bold text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="col-3">
+                <h3 class="text-warning h6">¿Cuanto se demora un pedido a llegar a destino?</h3>
+                <p class="font-weight-bold text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <div class="col-3">
+                <h3 class="text-warning h6">¿Donde queda ubicado Grupo zero?</h3>
+                <p class="font-weight-bold text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+              <!--boton-->
+              <div class="w-100"></div>
+              <button class="col-auto btn-warning text-white mx-auto my-4 text-capitalize">
+                Compra ahora!
+              </button>
+            </div>
+          </section>
 
 
+        
+
+      
       <footer class="footer">
         <div class="container">
             <p>Pagina diseñada por @Max Abarca-@Cristobal Ampuero-@Matías Lohse</p>
         </div>
       </footer>
+      
 
 
     <!-- Bootstrap Bundle with Popper -->
