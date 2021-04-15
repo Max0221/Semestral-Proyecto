@@ -1,3 +1,5 @@
+ /* menú, nabbar, cabecera */
+
 .navbar{
     background-image: url('../img/img1.jpg');
     background-color: transparent !important;
@@ -16,8 +18,34 @@
 
 }
 
+/* carousel de imagenes*/
+
 .carousel-inner img {
     height: 400px;
+}
+
+/* tarjetas */
+.card-img-filter{
+    filter: brightness(0.5);
+}
+
+.card{
+   transition-duration: .6s;
+   clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0 ); 
+}
+
+.card-effect:hover .card{
+    clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50% );
+
+}
+
+.card-effect:hover:hover .card-img-overlay{
+    transform: scale(.9);
+
+}
+
+.card-img-overlay{
+    transition-duration: .6s;
 }
 
 
