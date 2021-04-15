@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap%27');
 
+
+
+
+
 body{
     background-image: url("../img/contacto.jpg");
 
@@ -8,6 +12,8 @@ body{
     margin:0;
 
 }
+
+
 form{
     width: 450px;
     margin: auto;
