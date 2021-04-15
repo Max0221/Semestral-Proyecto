@@ -21,6 +21,7 @@
 /* carousel de imagenes*/
 
 .carousel-inner img {
+    filter: brightness(0.5);
     height: 400px;
 }
 
@@ -47,5 +48,21 @@
 .card-img-overlay{
     transition-duration: .6s;
 }
+
+.w-33 {
+    width: 33.33%;
+    background-color: orange;
+  }
+  
+.center {
+    text-align: center;
+  }
+  
+
+  
+ 
+
+
+
 
 
