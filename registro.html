@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/registro.css"> 
+    <script defer src="js/Form.js"></script>
     <title>Registro | Gc</title>
 </head>
 <body>
     <section class="form-register">
         <h4>Formulario de Registro</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo">
-        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="ingrese sus contraseña">
+    <div class="form-box">
+        <input  type="text" name="nickName" id="name" placeholder="ingrese su nombre">
+        <small class="error-text">Introduce un nombre</small>
+    </div>
+    <div class="form-box">
+        <input  type="text" name="apellidos" id="apellidos" placeholder="ingrese su apellido">
+        <small class="error-text">Introduce un apellido</small>
+    </div>
+        <div class="form-box">
+        <input  type="email" name="correo" id="correo" placeholder="ingrese su correo">
+        <small class="error-text">Introduce un correo electronico</small>
+    </div>
+        <div class="form-box">
+        <input  type="password" name="contraseña" id="contraseña" placeholder="ingrese sus contraseña">
+        <small class="error-text">Introduce una contraseña segura</small>
+    </div>
         <p> Estoy de acuerdo con<a href="#" > Termninos y condiciones</a></p>
       
         <a  href="../Semestral-Proyecto/login.html"><button type="button" class="botons"> REGISTRAR </button></a>
