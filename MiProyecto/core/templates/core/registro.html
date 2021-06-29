@@ -31,9 +31,9 @@
     </div>
         <p> Estoy de acuerdo con<a href="#" > Termninos y condiciones</a></p>
       
-        <a  href="../Semestral-Proyecto/login.html"><button type="button" class="botons"> REGISTRAR </button></a>
+        <a  href="{% url 'login' %}"><button type="button" class="botons"> REGISTRAR </button></a>
        
-        <p><a href="../Semestral-Proyecto/login.html">Ya tengo cuenta</a> </p>
+        <p><a href="{% url 'login' %}">Ya tengo cuenta</a> </p>
     </section>
     
     {% bootstrap_javascript jquery='full' %}

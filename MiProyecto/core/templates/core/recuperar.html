@@ -21,8 +21,8 @@
     <label for="email">Ingrese su correo</label>
     <input type="email" placeholder="Ingrese email">
     <!--enviar boton-->
-    <a href="../Semestral-Proyecto/login.html"><button type="button" class="btn btn-primary btn-lg"> ENVIAR </button></a>
-    <p><a href="../Semestral-Proyecto/login.html"> Ya tengo cuenta </a> </p>
+    <a href="{% url 'login' %}"><button type="button" class="btn btn-primary btn-lg"> ENVIAR </button></a>
+    <p><a href="{% url 'login' %}"> Ya tengo cuenta </a> </p>
 
     </form>
    </div>

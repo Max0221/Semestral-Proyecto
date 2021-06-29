@@ -34,19 +34,19 @@
                   <a class="nav-link" href="#">Carrito de compra</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="login.html">Iniciar Sesion</a>
+                  <a class="nav-link" href="{% url 'login' %}">Iniciar Sesion</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Productos
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="listap.html"> Todos </a></li>
-                    <li><a class="dropdown-item" href="categoria.html">Por categoría</a></li>
-                    <li><a class="dropdown-item" href="artista.html">Por artista</a></li>
+                    <li><a class="dropdown-item" href="{% url 'listap' %}"> Todos </a></li>
+                    <li><a class="dropdown-item" href="{% url 'categoria' %}">Por categoría</a></li>
+                    <li><a class="dropdown-item" href="{% url 'artista' %}">Por artista</a></li>
                   </ul>
                   <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link" href="{% url 'contacto' %}">Contacto</a>
                   </li>
               </ul>
               <form class="d-flex">
@@ -121,7 +121,7 @@
                     <p>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, incidunt.
                     </p>
-                    <a href="lista-productos.html" class="text-reset">Averigua más</a>
+                    <a href="{% url 'listap' %}" class="text-reset">Averigua más</a>
                   </div>
                 </div>
               </article>
@@ -134,7 +134,7 @@
                     <p>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, incidunt.
                     </p>
-                    <a href="lista-productos.html" class="text-reset">Averigua más</a>
+                    <a href="{% url 'listap' %}" class="text-reset">Averigua más</a>
                   </div>
                 </div>
               </article>
@@ -147,7 +147,7 @@
                     <p>
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, incidunt.
                     </p>
-                    <a href="lista-productos.html" class="text-reset">Averigua más</a>
+                    <a href="{% url 'listap' %}" class="text-reset">Averigua más</a>
                   </div>
                 </div>
               </article>
@@ -189,7 +189,7 @@
               <!--boton-->
               <div class="w-100"></div>
               <div class="center">
-              <a href="lista-productos.html"><button class="col-auto btn-warning text-white mx-auto my-4 text-capitalize">
+              <a href="{% url 'listap' %}"><button class="col-auto btn-warning text-white mx-auto my-4 text-capitalize">
                 Compra ahora!
               </button></a>
               </div>

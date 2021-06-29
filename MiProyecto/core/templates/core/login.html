@@ -29,13 +29,13 @@
           <input type="password" placeholder="Ingrese contraseña">
           <small class="error-text">Introduce una contraseña de +6 caracteres</small>
         </div>
-          <a href="index.html"><button type="button" id="button">Login</button></a>
+          <a href="{% url 'index' %}"><button type="button" id="button">Login</button></a>
           <br>
           
          
 
-          <a href="../Semestral-Proyecto/recuperar.html">¿OLVIDASTE TU CONTRASEÑA?</a><br>
-          <a href="../Semestral-Proyecto/registro.html">REGISTRATE</a>
+          <a href="{% url 'recuperar' %}">¿OLVIDASTE TU CONTRASEÑA?</a><br>
+          <a href="{% url 'registro' %}">REGISTRATE</a>
 
        </form>
    </div>
