@@ -9,7 +9,7 @@ class Categoria(models.Model):
 
 
 class Obra(models.Model):
-    id_obra = models.IntegerField(primary_key= True, max_length=6 , verbose_name= 'identificador de obra')
+    id_obra = models.IntegerField(primary_key= True, verbose_name= 'identificador de obra')
     nombre = models.CharField(max_length=50, verbose_name= 'Nombre de Obra')
     autor = models.CharField(max_length= 30, verbose_name= 'Autor')
     descripcion = models.CharField(max_length=50, null=True, blank=True, verbose_name= 'Descripcion de obra')
@@ -17,4 +17,5 @@ class Obra(models.Model):
 
     def __str__(self):
         return self.id_obra
+        
     
