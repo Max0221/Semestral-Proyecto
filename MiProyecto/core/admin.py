@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Categoriaa, Arte
 
-# Register your models here.
+admin.site.register(Categoriaa)
+admin.site.register(Arte)
