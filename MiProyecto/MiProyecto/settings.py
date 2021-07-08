@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     #TERCEROS
     'bootstrap4',
+    'rest_framework',
     #DJANGO
     'django.contrib.admin',
     'django.contrib.auth',
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #MIS APPS
     'core',
+    'rest',
 ]
 
 MIDDLEWARE = [
